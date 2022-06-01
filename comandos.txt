@@ -1,5 +1,11 @@
 Ver el estado de los archivos del proyecto:
     git status
+Ver status simplificado:
+    git status -s
+Ver cambios Etapa stage:
+    git diff
+Ver cambios Etapa commit:
+    git diff --staged
 Añadir archivos a la etapa stage: (Uno por uno es lo recomendable, no usar .)
     git add 
 Commit de los archivos en stage:
@@ -17,3 +23,7 @@ Restaurar archivos eliminados o de una versiòn anterior, Etapa commit a Etapa s
 Cambiar nombre:
     1) mv "origen del archivo (nombre viejo)" "destino del archivo (nuevo nombre)"
     2) git mv "origen del archivo (nombre viejo)" "destino del archivo (nuevo nombre)"
+Ver historial:
+    git log
+Ver historial simplificado:
+    git log --oneline
