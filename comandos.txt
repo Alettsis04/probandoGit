@@ -38,4 +38,4 @@ Agregar modificaciones de otro rama a la principal: (Estar en la rama principal)
 Asignar proyecto local al repositorio (nube):
     git remote add origin "Dirección del repositorio"
 Subir proyecto local al repositorio (nube):
-    git push -u origin main
+    git push -u origin "rama principal origen"
