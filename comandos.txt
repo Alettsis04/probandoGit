@@ -35,3 +35,7 @@ Ver lo que tiene un archivo:
     cat "archivo"
 Agregar modificaciones de otro rama a la principal: (Estar en la rama principal)
     git merge "rama alterna"
+Asignar proyecto local al repositorio (nube):
+    git remote add origin "Dirección del repositorio"
+Subir proyecto local al repositorio (nube):
+    git push -u origin main
