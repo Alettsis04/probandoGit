@@ -27,3 +27,11 @@ Ver historial:
     git log
 Ver historial simplificado:
     git log --oneline
+Ver en rama estamos:
+    git branch
+Crear una rama:
+    git checkout -b "nombre de la rama"
+Ver lo que tiene un archivo:
+    cat "archivo"
+Agregar modificaciones de otro rama a la principal: (Estar en la rama principal)
+    git merge "rama alterna"
