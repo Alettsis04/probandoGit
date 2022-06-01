@@ -1,0 +1,16 @@
+Ver el estado de los archivos del proyecto:
+    git status
+Añadir archivos a la etapa stage: (Uno por uno es lo recomendable, no usar .)
+    git add 
+Commit de los archivos en stage:
+    1) git commit -m "mensaje del commit"
+    2) git commit
+Eliminar archivos:
+    1) rm "archivo eliminar"
+    2) git status
+    3) git add "archivo eliminado"
+    4) git commit -m "mensaje de la eliminacion"
+Restaurar archivos de una versiòn anterior o eliminados, Etapa stage a Etapa normal:
+    1) git restore "archivo"
+Restaurar archivos eliminados o de una versiòn anterior, Etapa commit a Etapa stage:
+    2) git restore --staged "archivo"
