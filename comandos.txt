@@ -14,3 +14,6 @@ Restaurar archivos de una versiòn anterior o eliminados, Etapa stage a Etapa no
     1) git restore "archivo"
 Restaurar archivos eliminados o de una versiòn anterior, Etapa commit a Etapa stage:
     2) git restore --staged "archivo"
+Cambiar nombre:
+    1) mv "origen del archivo (nombre viejo)" "destino del archivo (nuevo nombre)"
+    2) git mv "origen del archivo (nombre viejo)" "destino del archivo (nuevo nombre)"
